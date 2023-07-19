@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
     circle.drawShape(); // Drawing Circle with Red
     square.drawShape(); // Drawing Square with Green
     setState(() {
-      _counter++;
+      // _counter++;
     });
   }
 
@@ -56,10 +56,10 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'Check Print Statement',
             ),
             Text(
-              '$_counter',
+              '',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
